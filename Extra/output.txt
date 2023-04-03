@@ -1,1 +1,1 @@
-A is vowel
+ASCII of the char is: a
