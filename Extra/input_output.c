@@ -73,21 +73,28 @@ int main(){
     // printf("mul: %d * %d = %d\n",a,b,mult);
     // printf("div: %d / %d = %d\n",a,b,div);
 
-    double a,b,sum,sub,mult,div;
-    char ch;
-    scanf("%lf %lf %c", &a,&b);
-    sum = a+b;
-    sub = a-b;
-    mult = a*b;
-    div = a/b;
+    // double a,b,sum,sub,mult,div;
+    // char ch;
+    // scanf("%lf %lf", &a,&b);
+    // sum = a+b;
+    // sub = a-b;
+    // mult = a*b;
+    // div = a/b;
 
-    ch = '+';
-    printf("addition: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,sum);
-    ch = "-";
-    printf("sub: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,sub);
-    ch = "*";
-    printf("mul: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,mult);
-    ch = "/";
-    printf("div: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,div);
+    // ch = '+';
+    // printf("addition: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,sum);
+    // ch = "-";
+    // printf("sub: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,sub);
+    // ch = "*";
+    // printf("mul: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,mult);
+    // ch = "/";
+    // printf("div: %0.2lf %c %0.2lf = %0.2lf\n",a,ch,b,div);
+
+    int value,i;
+    printf("Please Enter a value: ");
+    scanf("%d",&value);
+    for(i=1; i<=10; i++){
+        printf("%d\n",i);
+    }
     return 0;
 }

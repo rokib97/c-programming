@@ -10,7 +10,7 @@ int main(){
     sum = first + second;
     sub = first - second;
     mult = first * second;
-    div = (float)first / second;
+    div =  first * 1.0  / second;
     ch= '+';
     printf("%d %c %d = %d\n",first,ch,second,sum);
     ch= '-';
