@@ -1,7 +1,5 @@
 #include<stdio.h>
 int main(){
-
-
     int i;
     long long int b;
     float c;

@@ -2,10 +2,9 @@
 
 int main(){
 
-
     int a,b,sum;
-    scanf("%d %d", &a,&b);
+    scanf("%d %d",&a,&b);
     sum = a+b;
-    printf("%d\n",sum);
+    printf("SOMA = %d\n",sum);
     return 0;
 }
