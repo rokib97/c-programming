@@ -16,6 +16,5 @@ int main(){
             printf("I will buy new shoes\nAlisa will buy new shoes\n");
         }
     }
-
     return 0;
 }
