@@ -2,17 +2,34 @@
 
 int main(){
 
-    int eye,face,body,small,art,rem_eye,rem_face,rem_body;
-    scanf("%d %d %d",&eye,&face,&body);
-    if(eye ==0 || face==0 || body == 0){
-        printf("%d\n",0);
-    }
-    if(eye < face && eye < body){
-        small = eye;
-    }else if(face < eye && face < body){
-        small = face;
+    long long int eye, mouth, body, min_eye_or_body, result;
+    scanf("%lld %lld %lld",&eye,&mouth,&body);
+    // if(body < eye){
+    //     min_eye_or_body = body;
+    // }else{
+    //     min_eye_or_body=eye;
+    // }
+    // if(mouth < min_eye_or_body){
+    //     result = mouth;
+    // }else{
+    //     result = min_eye_or_body;
+    // }
+    if(body < eye && body < mouth){
+        result = body;
+    }else if(eye < body && eye < mouth){
+        result = eye;
     }else{
-        small=body;
+        result = mouth;
     }
+    body -= result;
+    eye -= result;
+    if(eye/2 < body){
+        result += eye/2;
+    }else{
+        result += body;
+    }
+    printf("%lld\n",result);
+   
+
     return 0;
 }
