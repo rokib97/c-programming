@@ -9,7 +9,7 @@ int main(){
     //     printf("%c\n",ar[i]);
     // }
     // string array super power
-    // size 6 beacuse of null char 
+    // size 6 beacuse of null char automatically initilize "\0"
     int size = sizeof(ar); 
     printf("%d\n",size);
     printf("%s\n",ar);
